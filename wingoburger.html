@@ -4,9 +4,9 @@
 		<title>WingoBurger</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/favicon.png">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 			<div id="wrapper">
@@ -35,15 +35,52 @@
 							<h1>WingoBurger</h1>
 							<section>
 								<h2>A logo for a burger fictitious Fast food chain</h2>
-								<div class="box alt">
-									<div class="row gtr-uniform">
-										<div class="col-12"><span class="image fit"><img src="portfolio logos/Wingo Burger.png" alt="" /></span></div>
-											<div class="col-12"><span class="image fit"><img src="portfolio logos/Logo Sign Mockup wingo burger.png" alt="" /></span></div>
+							</section>
+							<section>
+								<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+									<div class="carousel-indicators">
+										<a role=button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></a>
+										<a role=button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></a>
+										<a role=button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></a>
 									</div>
-								</section>
-			        </div>
-							<a href="doibarber.html" class="previous">&laquo; Previous</a>
-					</div>
+									<div class="carousel-inner">
+										<div class="carousel-item active" data-bs-interval="false">
+											<img src="portfolio logos/wingoburger.svg" class="d-block w-100" alt="...">
+											<div class="carousel-caption d-none d-md-block">
+												<h5>Logo</h5>
+											</div>
+										</div>
+										<div class="carousel-item" data-bs-interval="false">
+											<img src="portfolio logos/wingosign.png" class="d-block w-100" alt="...">
+											<div class="carousel-caption d-none d-md-block">
+												<h5>Store Front Mockup</h5>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="portfolio logos/wingoburgerwrap.png" class="d-block w-100" alt="...">
+											<div class="carousel-caption d-none d-md-block">
+												<h5>Burger and Drink Mockup</h5>
+											</div>
+										</div>
+									</div>
+									<a role=button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Previous</span>
+									</a>
+									<a role=button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Next</span>
+									</a>
+								</div>
+							</section>
+							<ul class="nav justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link" href="doibarber.html">Previous Project</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="index.html">Home</a>
+		</li>
+	</ul>
 					<footer id="footer">
 						<div class="inner">
 							<section>
@@ -57,6 +94,7 @@
 						</div>
 					</footer>
 			</div>
+			<script src="assets/js/bootstrap.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
